@@ -11,5 +11,9 @@ public class MethodDemo {
         Random generator = new Random();
         System.out.println(generator.nextInt());
         System.out.println(generator.nextInt());
+        
+        System.out.println(Integer.MAX_VALUE + Integer.MIN_VALUE);
+        int num = 100_000_000;
+        System.out.println(num);
     }
 }
